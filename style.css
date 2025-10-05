@@ -7,11 +7,15 @@ html,body{
     height: 100%;
     width: 100%;
 }
+#main{
+    background: radial-gradient(#C6BB9F,#2C3637);
+    color: rgb(221, 221, 221);
+}
 #nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    padding: 20px;
     
 }
 #nav > h3{
@@ -20,7 +24,7 @@ html,body{
 #nav a{
     margin-right: 10px;
     text-decoration: none;
-    color: black;
+    color:  rgb(221, 221, 221);
 }
 #heading{
     padding: 5px 160px;
@@ -60,4 +64,10 @@ html,body{
     margin-top: 20px;
 }
 
-#
+#last-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 100px 40px; */
+    padding: 50px 40px;
+}
